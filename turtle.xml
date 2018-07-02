@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!DOCTYPE movements SYSTEM "../../etc/TurtleMobility.dtd">
+<movements>
+    <movement id="1">
+        <!-- draw a square -->
+        <set speed="uniform(20,60)" x="25" y="25"/>   <!-- Inicia no PONTO A -->
+        <repeat>
+      		<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="25" />         <!-- PONTO B -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="225" />        <!-- PONTO E -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="25" y="225" />		  <!-- PONTO D -->
+        	<set speed="uniform(20,60)"/>
+       	 	<moveto x="25" y="625" />		  <!-- PONTO J -->
+       	 	<set speed="uniform(20,60)"/>
+       	 	<moveto x="525" y="625" />		  <!-- PONTO M -->
+       	 	<set speed="uniform(20,60)"/>
+       	 	<moveto x="525" y="25" />		  <!-- PONTO C -->
+       	 	<set speed="uniform(20,60)"/>
+       	 	<moveto x="25" y="25" />		  <!-- PONTO A -->     
+       </repeat>
+    </movement>
+
+    <movement id="2">
+        <!-- draw a square -->
+        <set speed="uniform(20,60)" x="25" y="25"/> <!-- Inicia no PONTO A -->
+         <repeat>
+         	<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="25" />         <!-- PONTO B -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="525" y="25" />		  <!-- PONTO C -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="525" y="225" />		  <!-- PONTO F -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="225" />        <!-- PONTO E -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="25" y="225" />		  <!-- PONTO D -->
+        	<set speed="uniform(20,60)"/>       	
+        	<moveto x="25" y="425" />		  <!-- PONTO G -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="425" />		  <!-- PONTO H -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="525" y="425" />		  <!-- PONTO I -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="525" y="625" />		  <!-- PONTO M -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="625" />		  <!-- PONTO L -->
+        	<set speed="uniform(20,60)"/>
+       	 	<moveto x="25" y="625" />		  <!-- PONTO J -->
+       	 	<set speed="uniform(20,60)"/>
+       	 	<moveto x="25" y="25" />		  <!-- PONTO A --> 
+        </repeat>
+    </movement>
+    
+    <movement id="3">
+        <!-- draw a square -->
+        <set speed="uniform(20,60)" x="25" y="425"/> <!-- Inicia no PONTO G -->
+         <repeat>
+         
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="425" />		  <!-- PONTO H -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="525" y="425" />		  <!-- PONTO I -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="525" y="225" />		  <!-- PONTO F -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="225" />        <!-- PONTO E -->
+         	<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="25" />         <!-- PONTO B -->
+        	<set speed="uniform(20,60)"/>
+       	 	<moveto x="25" y="25" />		  <!-- PONTO A -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="25" y="225" />		  <!-- PONTO D -->        	
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="225" />        <!-- PONTO E -->
+        	<set speed="uniform(20,60)"/>
+        	<moveto x="275" y="425" />		  <!-- PONTO H -->
+        	<set speed="uniform(20,60)"/>       	
+        	<moveto x="25" y="425" />		  <!-- PONTO G -->        	        	
+        	
+        </repeat>
+    </movement>
+    
+
+</movements>
+
+
